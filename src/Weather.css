@@ -1,6 +1,7 @@
 .Weather {
   border: 1px solid;
   width: 482px;
+  background-image: linear-gradient(-225deg, #7de2fc 0%, #b9b6e5 100%);
 }
 
 input.col-2.btn.btn-primary.submit {
@@ -56,8 +57,8 @@ button.col-2.btn.btn-warning.location {
 h1 {
   color: blue;
   position: relative;
-  left: 75px;
-  font-size: 5.5rem;
+  left: 115px;
+  font-size: 83px !important;
 }
 
 .todayInfo {
@@ -69,8 +70,9 @@ h1 {
 }
 
 img.icon {
-  max-width: 48%;
-  padding-left: 46px;
+  max-width: 44%;
+  padding-left: 56px;
+  margin-bottom: 17px;
 }
 
 strong {
@@ -84,6 +86,7 @@ strong {
 
 .weatherInfo {
   line-height: 68px;
+  padding-left: 21px;
 }
 
 .wind {

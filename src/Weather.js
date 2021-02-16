@@ -31,8 +31,8 @@ return (
     
 <div  className="row weatherInfo">
 <div className="col-xs-6 col-sm-4 maxMin">28° | 22°</div>
-<div className="col-xs-6 col-sm-4 wind">Wind: 5 km/h</div>
-<div className="col-xs-6 col-sm-4 humidity">Humidity: 72%</div>
+<div className="col-xs-6 col-sm-4 wind">🏳 5 km/h</div>
+<div className="col-xs-6 col-sm-4 humidity">💧 72%</div>
 </div>
 
     
