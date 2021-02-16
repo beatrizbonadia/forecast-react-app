@@ -1,0 +1,99 @@
+.Weather {
+  border: 1px solid;
+  width: 482px;
+}
+
+input.col-2.btn.btn-primary.submit {
+  border-radius: 20px;
+  padding: 10px 5px;
+  max-width: 70px;
+  margin-left: 7px;
+  max-height: 45px;
+  margin-top: 4px;
+}
+
+input.col-4.searchCity {
+  border-radius: 10px;
+  padding: 0;
+  max-width: 167px;
+  max-height: 46px;
+  margin-top: 3px;
+  margin-left: 16px;
+}
+
+button.col-2.btn.btn-default.celsius {
+  border: -2px;
+  border-color: black;
+  border-radius: 30px;
+  padding: 0;
+  max-width: 50px;
+  max-height: 44px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+button.col-2.btn.btn-default.farh {
+  border: -2px;
+  border-color: black;
+  border-radius: 30px;
+  padding: 0;
+  max-width: 50px;
+  max-height: 44px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+button.col-2.btn.btn-warning.location {
+  border: -2px;
+  border-color: black;
+  border-radius: 30px;
+  padding: 0;
+  max-width: 90px;
+  max-height: 44px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+h1 {
+  color: blue;
+  position: relative;
+  left: 75px;
+  font-size: 5.5rem;
+}
+
+.todayInfo {
+  list-style-type: none;
+}
+
+.time {
+  list-style: none;
+}
+
+img.icon {
+  max-width: 48%;
+  padding-left: 46px;
+}
+
+strong {
+  font-size: 527%;
+  padding-left: 60px;
+}
+
+.weatherLooks {
+  padding-left: 117px;
+}
+
+.weatherInfo {
+  line-height: 68px;
+}
+
+.wind {
+  list-style: none;
+}
+
+.humidity {
+  list-style: none;
+}
+
+.maxMin {
+  list-style: none;
+}
