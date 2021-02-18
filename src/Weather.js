@@ -7,8 +7,8 @@ return (
 <form className="row form">
     <input className="col-4 searchCity" type="search" placeholder="Enter a city" />
     <input className="col-2 btn btn-primary submit" type="submit" value="Search"/>
-    <button className="col-2 btn btn-default celsius">℃</button>
-    <button className="col-2 btn btn-default farh">℉</button>
+    <button className="col-2 btn btn-info celsius">℃</button>
+    <button className="col-2 btn btn-info farh">℉</button>
     <button className="col-2 btn btn-warning location">📍 Location</button>
 </form>
 
@@ -21,18 +21,18 @@ return (
 
     <div className="row mainInfo">
 <div className="col-xs-8  main">
-<img className=" icon" src="https://icons.iconarchive.com/icons/icons-land/weather/256/Sunny-icon.png" alt="Sunny" />
-
-
-<strong className="col-xs-4 temperature" >24°</strong>
+ <img className=" icon" src="https://icons.iconarchive.com/icons/icons-land/weather/256/Sunny-icon.png" alt="Sunny" />
+<strong className="col-xs-2 temperature" >24°</strong>
+<div className="col-xs-2 weatherLooks">Sunny    </div>
 </div>
 </div>
-    <div className="row weatherLooks">Sunny</div>
+    
     
 <div  className="row weatherInfo">
-<div className="col-xs-6 col-sm-4 maxMin">28° | 22°</div>
-<div className="col-xs-6 col-sm-4 wind">🏳 5 km/h</div>
-<div className="col-xs-6 col-sm-4 humidity">💧 72%</div>
+<div className="col-5  maxMin">High: 28° | Low: 22° </div>
+
+<div className="col-3  wind">🏳 5 km/h</div>
+<div className="col-3  humidity">💧 72%</div>
 </div>
 
     
