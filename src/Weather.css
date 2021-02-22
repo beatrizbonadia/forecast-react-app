@@ -58,14 +58,6 @@ h1 {
   font-size: 83px !important;
 }
 
-.todayInfo {
-  font-weight: bolder;
-}
-
-.time {
-  font-weight: 300px;
-}
-
 img.icon {
   max-width: 44%;
   padding-left: 56px;
@@ -78,7 +70,7 @@ strong.col-xs-2.temperature {
 }
 
 .weatherLooks {
-  padding-left: 289px;
+  padding-left: 254px;
   position: relative;
   font-weight: lighter;
   font-size: x-large;
