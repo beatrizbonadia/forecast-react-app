@@ -36,7 +36,8 @@ humidity:response.data.main.humidity,
 wind:response.data.wind.speed,
 max:response.data.main.temp_max,
 min:response.data.main.temp_min,
-description:response.data.weather[0].description
+description:response.data.weather[0].description,
+icon:`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
 });
 
 }

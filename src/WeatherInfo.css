@@ -1,0 +1,33 @@
+h1 {
+  position: relative;
+  left: 67px;
+  font-size: 83px !important;
+}
+
+img.icon {
+  max-width: 44%;
+  padding-left: 56px;
+  margin-bottom: 17px;
+}
+
+strong.col-xs-2.temperature {
+  font-size: 527%;
+  padding-left: 65px;
+}
+
+.weatherLooks {
+  padding-left: 216px;
+  position: relative;
+  font-weight: lighter;
+  font-size: x-large;
+  top: -39px;
+}
+
+.weatherInfo {
+  line-height: 68px;
+  padding-left: 21px;
+}
+
+li {
+  list-style: none;
+}

@@ -52,36 +52,3 @@ button.col-2.btn.btn-warning.location {
   margin-left: 7px;
   font-size: 15px;
 }
-h1 {
-  position: relative;
-  left: 115px;
-  font-size: 83px !important;
-}
-
-img.icon {
-  max-width: 44%;
-  padding-left: 56px;
-  margin-bottom: 17px;
-}
-
-strong.col-xs-2.temperature {
-  font-size: 527%;
-  padding-left: 30px;
-}
-
-.weatherLooks {
-  padding-left: 254px;
-  position: relative;
-  font-weight: lighter;
-  font-size: x-large;
-  top: -64px;
-}
-
-.weatherInfo {
-  line-height: 68px;
-  padding-left: 21px;
-}
-
-li {
-  list-style: none;
-}
