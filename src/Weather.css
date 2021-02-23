@@ -30,17 +30,6 @@ input.col-4.searchCity {
   border-color: #0000006b;
 }
 
-button.col-2.btn.btn-info {
-  border: -2px;
-  border-color: #0000006b;
-  border-radius: 30px;
-  padding: 0;
-  max-width: 50px;
-  max-height: 44px;
-  margin-top: 7px;
-  margin-left: 7px;
-}
-
 button.col-2.btn.btn-warning.location {
   border: -2px;
   border-color: #0000006b;

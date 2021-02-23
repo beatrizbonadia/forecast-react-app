@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import UnitChange from "./UnitChange";
 import "./WeatherInfo.css";
 export default function WeatherInfo(props){
 return (
@@ -14,9 +15,9 @@ return (
     </ul>
 
     <div className="row mainInfo">
-<div className="col-xs-8  main">
- <img className=" icon" src={props.data.icon} alt="Sunny" />
-<strong className="col-xs-2 temperature" >{Math.round(props.data.temperature)}°C</strong>
+<div className="main">
+ <img className=" icon" src={props.data.icon} alt={props.data.description}  />
+<UnitChange unit={props.data.temperature}/>
 <div className="col-xs-2 text-capitalize weatherLooks">{props.data.description}    </div>
 </div>
 </div>

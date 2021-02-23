@@ -46,8 +46,7 @@ if (information.ready) {return (<div className="Weather">
 <form className="row form" onSubmit={handleSubmit}>
     <input className="col-4 searchCity" type="search" placeholder="Enter a city" onChange={updateCity}/>
     <input className="col-2 btn btn-primary submit" type="submit" value="Search"/>
-    <button className="col-2 btn btn-info celsius">℃</button>
-    <button className="col-2 btn btn-info farh">℉</button>
+  
     <button className="col-2 btn btn-warning location">📍 Location</button>
 </form>
 <WeatherInfo data={information}/>

@@ -10,17 +10,12 @@ img.icon {
   margin-bottom: 17px;
 }
 
-strong.col-xs-2.temperature {
-  font-size: 527%;
-  padding-left: 65px;
-}
-
 .weatherLooks {
   padding-left: 216px;
   position: relative;
   font-weight: lighter;
   font-size: x-large;
-  top: -39px;
+  top: -184px;
 }
 
 .weatherInfo {
@@ -30,4 +25,8 @@ strong.col-xs-2.temperature {
 
 li {
   list-style: none;
+}
+
+.main {
+  height: 148px;
 }

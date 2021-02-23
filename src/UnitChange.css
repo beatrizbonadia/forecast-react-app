@@ -1,0 +1,23 @@
+strong.col-xs-2.temperature {
+  font-size: 527%;
+  position: relative;
+  left: 216px;
+  top: -160px;
+}
+
+button.col-2.btn.btn-info {
+  border: -2px;
+  border-color: #0000006b;
+  border-radius: 30px;
+  padding: 0;
+  max-width: 50px;
+  max-height: 44px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+form.unitChange {
+  position: relative;
+  top: -331px;
+  right: -339px;
+}
