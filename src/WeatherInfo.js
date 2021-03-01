@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import UnitChange from "./UnitChange";
+import ForecastMain from "./ForecastMain.js";
 import "./WeatherInfo.css";
 export default function WeatherInfo(props){
 return (
@@ -29,6 +30,9 @@ return (
 <div className="col-3  wind">🏳 {Math.round(props.data.wind)} km/h</div>
 <div className="col-3  humidity">💧 {Math.round(props.data.humidity)}%</div>
 </div>
+<hr/>
+<ForecastMain  name={props.data.city}/>
+
 </div>
 );
 }

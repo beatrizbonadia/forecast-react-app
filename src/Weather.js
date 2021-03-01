@@ -26,7 +26,7 @@ axios.get(url).then(handleApi);
 }
 
 function handleApi(response){
-    console.log(response.data);
+    
 setInformation({
     ready:true,
    date: new Date(response.data.dt * 1000),
