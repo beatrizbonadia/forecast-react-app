@@ -1,0 +1,9 @@
+img.weather-icon {
+  max-width: 44%;
+  padding-left: 56px;
+  margin-bottom: 17px;
+}
+
+.div.WeatherIcon {
+  max-width: 48px;
+}

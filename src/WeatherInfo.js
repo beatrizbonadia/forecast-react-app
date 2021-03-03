@@ -3,6 +3,7 @@ import FormattedDate from "./FormattedDate";
 import UnitChange from "./UnitChange";
 import ForecastMain from "./ForecastMain.js";
 import "./WeatherInfo.css";
+import WeatherIcon from "./WeatherIcon.js";
 export default function WeatherInfo(props){
 return (
      <div className="WeatherInfo">
@@ -17,7 +18,7 @@ return (
 
     <div className="row mainInfo">
 <div className="main">
- <img className=" icon" src={props.data.icon} alt={props.data.description}  />
+ <WeatherIcon code={props.data.icon} description={props.data.description}  className="iconNow"/>
 <UnitChange unit={props.data.temperature}/>
 <div className="col-xs-2 text-capitalize weatherLooks">{props.data.description}    </div>
 </div>
