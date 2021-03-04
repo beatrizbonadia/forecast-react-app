@@ -21,3 +21,9 @@ form.unitChange {
   top: -331px;
   right: -339px;
 }
+
+.maxMin {
+  position: relative;
+  top: -105px;
+  left: -16px;
+}

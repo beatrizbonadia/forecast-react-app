@@ -25,7 +25,7 @@ if (unit==="celsius") {
 </form>
 <strong className="col-xs-2 temperature" >{Math.round(props.unit)}°C</strong>
 </span>
-<div className="col-5  maxMin">High: {Math.round(props.unitMax)}° | Low: {Math.round(props.unitMin)}° </div>
+<ul><li className="maxMin">High: {Math.round(props.unitMax)}° | Low: {Math.round(props.unitMin)}° </li></ul>
 </div>
 );
 
@@ -41,8 +41,9 @@ return(
     <button className="col-2 btn btn-info farh"  onClick={handleFarh}>℉</button>
 </form>
 <strong className="col-xs-2 temperature" >{Math.round(fahrenheit)}°F</strong>
+<ul><li className=" maxMin"> High: {Math.round(props.fahrenheitMax)}° | Low: {Math.round(props.fahrenheitMin)}°</li></ul>
 </span>
-<div className="col-5  maxMin">High: {Math.round(props.fahrenheitMax)}° | Low: {Math.round(props.fahrenheitMin)}° </div>
+ 
 
 </div>
 

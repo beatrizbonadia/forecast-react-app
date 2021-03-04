@@ -28,8 +28,8 @@ return (
 <div  className="row weatherInfo">
 
 
-<div className="col-3  wind">🏳 {Math.round(props.data.wind)} km/h</div>
-<div className="col-3  humidity">💧 {Math.round(props.data.humidity)}%</div>
+<div className="col-6 wind">🏳 {Math.round(props.data.wind)} km/h</div>
+<div className="col-6 humidity">💧 {Math.round(props.data.humidity)}%</div>
 </div>
 <hr/>
 <ForecastMain  name={props.data.city}/>
