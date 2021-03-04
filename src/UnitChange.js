@@ -41,7 +41,7 @@ return(
     <button className="col-2 btn btn-info farh"  onClick={handleFarh}>℉</button>
 </form>
 <strong className="col-xs-2 temperature" >{Math.round(fahrenheit)}°F</strong>
-<ul><li className=" maxMin"> High: {Math.round(props.fahrenheitMax)}° | Low: {Math.round(props.fahrenheitMin)}°</li></ul>
+<ul><li className=" maxMin"> High: {Math.round(fahrenheitMax)}° | Low: {Math.round(fahrenheitMin)}°</li></ul>
 </span>
  
 
