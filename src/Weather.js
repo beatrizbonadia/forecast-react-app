@@ -25,6 +25,24 @@ let url=`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey
 axios.get(url).then(handleApi);
 }
 
+function acessLocation(event){
+    event.preventDefault();
+    navigator.geolocation.getCurrentPosition(giveMyLocation);
+
+}
+
+function giveMyLocation(position){
+    let id ="e3344368d6f3c228b3b3ea166c8bbbdf";
+let lat =Math.round(position.coords.latitude);
+let lon =Math.round(position.coords.longitude);
+let unit ="metric";
+let url=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=${unit}&appid=${id}`;
+
+axios.get(url).then(handleApi);
+}
+
+
+
 function handleApi(response){
     
 setInformation({
@@ -47,7 +65,7 @@ if (information.ready) {return (<div className="Weather">
     <input className="col-4 searchCity" type="search" placeholder="Enter a city" onChange={updateCity}/>
     <input className="col-2 btn btn-primary submit" type="submit" value="Search"/>
   
-    <button className="col-2 btn btn-warning location">📍 Location</button>
+    <button className="col-2 btn btn-warning location" onClick={acessLocation}>📍 Location</button>
 </form>
 <WeatherInfo data={information}/>
     

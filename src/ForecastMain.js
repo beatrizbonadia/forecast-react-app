@@ -11,7 +11,7 @@ export default function ForecastMain(props){
     function handleForecast(response){
         setForecast(response.data);
 setLoad(true);
-console.log(response.data);
+
 
 
     }
