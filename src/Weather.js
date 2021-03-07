@@ -20,7 +20,7 @@ function updateCity(event){
 function giveCity(){
     const apiKey="e3344368d6f3c228b3b3ea166c8bbbdf";
 
-let url=`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+let url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(url).then(handleApi);
 }
